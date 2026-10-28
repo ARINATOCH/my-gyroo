@@ -1,0 +1,685 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.unscroll {
+  overflow: hidden;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100%;
+}
+header {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+.up-header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid #00000023;
+}
+.header-info {
+  max-width: 400px;
+}
+.header-button {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: orange;
+  max-width: 184px;
+  padding: 8px 5px;
+  border: none;
+  width: 100%;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.header-button:hover {
+  background-color: rgb(235, 152, 0);
+}
+.down-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+.down-header img {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+.nav-button {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.nav-button:hover {
+  border-bottom: 1px solid;
+}
+
+#tri {
+  border: none;
+  background-color: #fff;
+}
+.main-content {
+  height: 737px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-image: url("../img/fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+}
+.main-image {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.img-container {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.main-info {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding-top: 250px;
+  max-width: 700px;
+}
+.button-catalog { 
+  padding: 15px 45px;
+  border-radius: 10px;
+  color: #000;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.button-catalog:hover {
+  background-color: #ffa019;
+  color: #fff;
+}
+.main-info-article {
+  font-size: 56px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.main-info-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-weight: lighter;
+}
+.advantages-container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.advantages-box {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.advantages-buttons img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.advantages-icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages-card {
+  height: 100%;
+  min-width: 160px;
+}
+h2 {
+  font-size: 34px;
+  font-weight: lighter;
+}
+.advantages-card-img {
+  width: 100%;
+  height: auto;
+}
+.about-text {
+  line-height: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.about-Us {
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.subscription-container {
+  width: 100%;
+  height: auto;
+  background-color: #ffa019;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subscription-box {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+  display: flex;
+}
+.subscription-text {
+  max-width: 230px;
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+}
+.subscription-input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 23%;
+  margin-top: 10px;
+  border: none;
+  background-color: #ffa019;
+  border: #ffffff 1px solid;
+  color: #fff;
+  outline: 0;
+}
+.subscription-input::placeholder {
+  color: #fff;
+  opacity: 0.9;
+}
+.subscription-button {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  user-select: none;
+  background: rgb(255, 255, 255);
+  padding: 0.7em 4em;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s;
+  border: none;
+  width: 23%;
+}
+.subscription-button:hover {
+  background-color: #e6e6e6;
+}
+.second-floor {
+  height: 100%;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.features {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: lighter;
+  max-width: 900px;
+}
+.features-text {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+.catalog-name {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.catalog-container {
+  height: 100%;
+  width: 100%;
+  background-color: #fbfbfb;
+}
+.catalog-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.catalog-button {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.catalog-button:hover {
+  background-color: #ffa019;
+  color: #fff;
+}
+.catalog-examples {
+  display: flex;
+  justify-content: space-between;
+}
+.example-card {
+  max-width: 260px;
+  height: 388px;
+  background-color: #fff;
+  border: 1px #b1b1b1 solid;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000;
+  transition: 0.1s;
+}
+.example-card:hover {
+  transform: scale(1.01);
+}
+
+.catalog-img {
+  width: 100%;
+  height: auto;
+}
+.example-card-text {
+  padding-left: 15px;
+}
+.example-card-price {
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.consultants-title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.consultants-container {
+  justify-content: space-between;
+  display: flex;
+}
+.consultant-box {
+  max-width: 390px;
+  width: 100%;
+  display: flex;
+}
+.consultant-img {
+  max-width: 182px;
+  width: 100%;
+}
+.consultant-info {
+  padding-left: 20px;
+  width: 100%;
+  font-weight: lighter;
+}
+.consultant-name {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.consultant-function {
+  font-style: italic;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.consultant-write-button {
+  padding: 0.5em 0.8em;
+  border-radius: 10px;
+  background-color: #ffa019;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.consultant-write-button:hover {
+  background-color: #d38519;
+}
+.brands-background-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  word-spacing: 50px;
+  letter-spacing: 3px;
+  color: #9b9b9b;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  user-select: none;
+}
+.useful-info-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.useful-info {
+  padding-bottom: 50px;
+}
+.useful-info-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.useful-info-nav-card {
+  transition: 1s;
+  object-fit: cover;
+}
+.useful-info-nav-card img {
+  width: 100%;
+  height: auto;
+}
+.useful-info-nav-card:hover {
+  scale: 1.05;
+}
+footer {
+  margin-top: 150px;
+}
+.footer-container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info {
+  color: #8191a6;
+  font-size: 15px;
+  max-width: 400px;
+  text-align: justify;
+}
+.footer-text {
+  padding-bottom: 20px;
+}
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-nav-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.footer-nav-article {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.footer-nav-button {
+  color: #8191a6;
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer-nav-button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  header {
+    padding: 20px;
+  }
+  .second-floor {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    width: 100%;
+  }
+  header {
+    padding: 20px;
+  }
+  .advantages-container {
+    padding: 20px;
+    width: 90%;
+  }
+  .subscription-box {
+    width: 90%;
+  }
+  .second-floor {
+    padding: 20px;
+  }
+  .catalog-container {
+    width: 95%;
+  }
+  .catalog-examples {
+    flex-wrap: wrap;
+  }
+  .example-card {
+    max-width: 20%;
+    height: auto;
+  }
+  .subscription-container {
+    padding: 20px;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+    height: 10%;
+  }
+
+  .menu {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    top: -100%;
+    left: 0%;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s;
+    padding-top: 100px;
+  }
+  header.open .menu {
+    transform: translateY(100%);
+  }
+
+  .header-logo {
+    z-index: 1;
+    font-size: 1.3rem;
+  }
+  .down-header button {
+    z-index: 10;
+  }
+  .nav-button {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin-left: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .main-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main-content {
+    height: 400px;
+  }
+  .advantages-container {
+    padding: 20px;
+    width: 90%;
+  }
+  .advantages-card p {
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-align: left;
+  }
+  .main-info-text {
+    font-size: 17px;
+    width: 90%;
+  }
+  .advantages-box {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .advantages-box h2 {
+    max-width: 50%;
+  }
+  .about-Us {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .about-text {
+    font-size: 15px;
+  }
+  .features {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .subscription-container {
+    width: 100%;
+  }
+  .subscription-box {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  .subscription-input {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .subscription-button {
+    margin-top: 20px;
+    width: 70%;
+  }
+  .second-floor {
+    max-width: 90%;
+    padding: 0px;
+  }
+  .features-container div p {
+    font-size: 17px;
+  }
+  .features-text {
+    font-size: 17px;
+  }
+  .advantages-icons-container {
+    flex-wrap: wrap;
+  }
+  .advantages-card {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .advantages-card p {
+    margin-top: 20px;
+  }
+  .advantages-card img {
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+  }
+  .catalog-examples {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .example-card {
+    max-width: 45%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .catalog-nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .catalog-nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .catalog-button {
+    margin-top: 10px;
+  }
+  .catalog-container {
+    width: 100%;
+  }
+  .subscription-box {
+    max-width: 100%;
+  }
+  .consultants {
+    width: 90%;
+  }
+  .consultants-container {
+    flex-direction: column;
+  }
+  .consultant-box {
+    margin-top: 20px;
+  }
+  .useful-info-container {
+    padding: 20px;
+  }
+  .useful-info-nav {
+    flex-wrap: wrap;
+  }
+  .useful-info-nav-card {
+    width: 45%;
+    height: auto;
+  }
+  .features-container {
+    flex-direction: column;
+  }
+  .features-container div {
+    width: 90%;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .up-header {
+    flex-direction: column;
+    height: auto;
+    display: none;
+  }
+  .header-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .down-header {
+    height: fit-content;
+  }
+  .footer-container {
+    width: 90%;
+  }
+  .down-header img {
+    display: block;
+  }
+  .footer-nav {
+    flex-direction: column;
+  }
+  .footer-info {
+    max-width: 50%;
+  }
+}
